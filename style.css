@@ -17,13 +17,13 @@ body {
 }
 
 .main-content .line {
-    height: 1px;
-    margin: 0 auto;
-    background-color: hsl(30, 18%, 87%);
+	height: 1px;
+	margin: 0 auto;
+	background-color: hsl(30, 18%, 87%);
 }
 
 .main-content .line-one {
-    width: 95%;
+	width: 95%;
 }
 
 .main-content .line-two {
@@ -40,7 +40,6 @@ body {
 	display: block;
 	max-width: 100%;
 	margin: 0 auto;
-	
 }
 
 .description-section {
@@ -130,22 +129,18 @@ body {
 	padding: 0 1.5rem;
 }
 
-.nutrition-section hr {
-	width: 100%;
-}
-
 .nutrition-box {
 	display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(1, 1fr);
-    gap: 8px;
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: repeat(1, 1fr);
+	gap: 8px;
 	margin-top: 1.2rem;
 	padding-bottom: 0.8rem;
-    text-align: left;
+	text-align: left;
 }
 
 .nutrition-text {
-    color: hsl(30, 10%, 34%);
+	color: hsl(30, 10%, 34%);
 }
 
 .nutrition-box .nutrition-secondary-text {
@@ -166,11 +161,10 @@ body {
 
 	.recipe-image {
 		padding: 1.3rem;
-        border-radius: 25px;
+		border-radius: 25px;
 	}
 
 	.nutrition-box .nutrition-text {
 		padding: 0 3rem;
 	}
-
 }
